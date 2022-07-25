@@ -8,7 +8,7 @@
 }
 
 .mainBody {
-  max-width: 1240px;
+  /* max-width: 1240px; */
   margin: auto;
   overflow-x: hidden;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -28,10 +28,6 @@
   display: flex;
 }
 
-#content {
-  margin-left: 30px;
-}
-
 .footer {
   padding-bottom: 25px;
   padding-top: 25px;
@@ -41,7 +37,6 @@ nav {
   width: auto;
   color: white;
   background-color: #997716;
-  border: 1px solid black;
 }
 
 .list-menu {
@@ -72,20 +67,6 @@ li a:hover {
 
 li a:visited {
   color: white;
-}
-
-.introMeLine {
-  color: white;
-  width: 80%;
-}
-
-.bodyLine2 {
-  width: 80%;
-}
-
-.rowSkillsInt {
-  display: flex;
-  justify-content: space-around;
 }
 
 .column {
@@ -223,10 +204,6 @@ h3 {
     flex-flow: column wrap;
   }
 
-  #content {
-    margin-left: 0px;
-  }
-
   .roleContainer {
     justify-content: center;
   }
@@ -247,8 +224,8 @@ h3 {
     flex-flow: column wrap;
   }
 
-  #content {
-    margin-left: 0px;
+  .dateDurationText {
+    margin-bottom: 30px;
   }
 
   .roleContainer {
@@ -262,11 +239,6 @@ h3 {
   .keyResponsi {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif, Courier, monospace, Cochin, Georgia, Times, 'Times New Roman', serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
-  }
-
-  .rowSkillsInt {
-    flex-flow: column wrap;
-    justify-content: center;
   }
 }
 
@@ -279,6 +251,10 @@ h3 {
     gap: 10px;
   }
 
+  .rowSkillsInt {
+    flex-flow: row;
+  }
+
   .roleContainer {
     justify-content: center;
   }
@@ -290,10 +266,5 @@ h3 {
   .keyResponsi {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, 'Arial Narrow', Arial, sans-serif, Courier, monospace, Cochin, Georgia, Times, 'Times New Roman', serif, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
-  }
-
-  .rowSkillsInt {
-    display: flex;
-    justify-content: space-around;
   }
 }
