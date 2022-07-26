@@ -10,16 +10,120 @@
     <link rel="icon" type="image/png" sizes="16x16" href="static/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="static/images/favicon/site.webmanifest">
     <title>Justin's Digital Resume v3.0 Built with Bootstrap!</title>
-    <meta name="description" content="Coded my own CV site with HTML and CSS! Picture control, media queries, Boootstrap, ...">
-    <!-- Bootstrap CSS link -->
+    <meta name="description"
+        content="Coded my own CV site with HTML and CSS! Picture control, media queries, Boootstrap, ...">
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-    <!-- Bootstrap CSS link -->
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="static/css/style-new.css" type="text/css">
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-md navbar-light bg-light px-3">
+        <a class="navbar-brand">Digital Resumé</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+            aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Skills & Interests</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- My Hero photo -->
+    <div class="text-center bg-image rounded-3">
+        <img src="static/images/Me-1920.jpg" class="img-fluid" alt="Justin vaping?">
+        <div class="mask" style="background-color: #997716;">
+            <div class="d-flex justify-content-center align-items-center h-100 p-2">
+                <div class="jumbotron text-white">
+                    <div class="container text-center">
+                        <h1>Justin Oosthuizen</h1>
+                        <p>Full Stack Developer in training!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- My Hero photo END -->
 
+    <div class="container-fluid bg-3 text-center p-3">
+        <h3>Work Experience</h3><br>
+        <div class="row">
+            <div class="col-sm-3">
+                <p>Jan 2018 - May 2022</p>
+                <p>Cape Business Online</p>
+                <p>Search Engine Optimization Specialist</p>
+                <p class="keyResponsi">Key responsibilities included:</p>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">SEO (research, tracking, implementation, and optimization)</li>
+                    <li class="list-group-item">Website maintenance (updates, improvements)</li>
+                    <li class="list-group-item">Support (via email and telephone)</li>
+                    <li class="list-group-item">Domain (set up, creation and installation of WordPress)</li>
+                    <li class="list-group-item">Audits (audit websites, conduct fixes to be clean of errors and
+                        warnings)</li>
+                    <li class="list-group-item">Client liaison (social media approvals)</li>
+                    <li class="list-group-item">Admin (reports, documentation)</li>
+                </ul>
+                <!-- Thinking of adding CBOL logo with nofollow link through to website. Maybe.
+                <img src="" class="img-responsive" style="width:100%" alt="Image"> -->
+            </div>
+            <div class="col-sm-3">
+                <p>Some text..</p>
+                <img src="" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>Some text..</p>
+                <img src="" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>Some text..</p>
+                <img src="" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+        </div>
+    </div><br>
+
+    <div class="container-fluid bg-3 text-center">
+        <div class="row">
+            <div class="col-sm-3">
+                <p>Some text..</p>
+                <img src="" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>Some text..</p>
+                <img src="" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>Some text..</p>
+                <img src="" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+            <div class="col-sm-3">
+                <p>Some text..</p>
+                <img src="" class="img-responsive" style="width:100%" alt="Image">
+            </div>
+        </div>
+    </div><br><br>
+
+    <footer class="container-fluid text-center">
+        <p>Footer Text</p>
+    </footer>
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
