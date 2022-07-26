@@ -198,21 +198,37 @@ h4 {
 }
 
 .dateDuration {
-  font-size: 13px;
+  font-size: 14px;
   background-color: #ddd;
-  border: 1px solid;
-  border-color: black;
+  border: none;
   color: black;
-  padding: 2px 8px;
+  padding: 3px 8px;
   text-align: center;
-  text-decoration: none;
   display: inline-block;
+  margin: 4px 2px;
   border-radius: 16px;
 }
 
+.styledHeading {
+  text-shadow: 0 0 15px #fff, 0 0 25px #fff, 0 0 47px #e2b539, 0 0 87px #e2b539, 0 0 97px #e2b539;
+  color: white;
+  font-size: 80px;
+  text-align: center;
+}
+
+.styledPara {
+  text-shadow: 0 0 15px #fff, 0 0 25px #fff, 0 0 47px #e2b539, 0 0 87px #e2b539, 0 0 97px #e2b539;
+  color: white;
+  font-size: 22px;
+  text-align: center;
+}
+
+.customBG {
+  background-color: #fff9e7;
+}
 /* Form */
 
-.form-group{
+.form-group {
   text-align: left;
 }
 
