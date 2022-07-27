@@ -196,7 +196,7 @@ h4 {
 }
 
 #githubIcon {
-  margin: 45px;
+  margin: 40px;
 }
 
 .dateDuration {
@@ -223,10 +223,6 @@ h4 {
   color: white;
   font-size: 22px;
   text-align: center;
-}
-
-.customBG {
-  background-color: 0;
 }
 
 
