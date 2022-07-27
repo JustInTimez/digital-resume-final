@@ -34,6 +34,10 @@ footer {
   color: #e2b539;
 }
 
+.mobileMenuHover {
+    border: 2px solid #e2b539;
+}
+
 .skillBar {
   margin-bottom: 26px;
   margin-bottom: 1.66em;
@@ -192,8 +196,6 @@ h4 {
 }
 
 #githubIcon {
-  /* margin-left: 35px;
-  margin-right: 35px; */
   margin: 45px;
 }
 
@@ -224,8 +226,10 @@ h4 {
 }
 
 .customBG {
-  background-color: #fff9e7;
+  background-color: 0;
 }
+
+
 /* Form */
 
 .form-group {
