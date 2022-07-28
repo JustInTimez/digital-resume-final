@@ -34,8 +34,17 @@ footer {
   color: #e2b539;
 }
 
+/* .customNavToggle{
+  margin-right: calc(50vw - 16px - (56px / 2));
+} */
+/* Above is code for moving mobile menu hamburger to center. Current issue is that on 320 it doesn't look too good. It stacks with the text. Leaving on left for now */
+
 .mobileMenuHover {
-    border: 2px solid #e2b539;
+  border: 2px solid #e2b539;
+}
+
+.menuBarHeading {
+  font-size: 8vw;
 }
 
 .skillBar {
