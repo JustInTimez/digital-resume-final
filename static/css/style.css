@@ -28,6 +28,36 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   height: 480px;
+  animation: fadeIn 2s ease;
+  -webkit-animation: fadeIn 2s ease;
+  -moz-animation: fadeIn 2s ease;
+  -o-animation: fadeIn 2s ease;
+  -ms-animation: fadeIn 2s ease;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
 
 .navbar .navbar-nav .nav-link:hover {
