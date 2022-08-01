@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-}
-
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
   margin-bottom: 0;
@@ -28,6 +24,36 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   height: 480px;
+  animation: fadeIn 2s ease;
+  -webkit-animation: fadeIn 2s ease;
+  -moz-animation: fadeIn 2s ease;
+  -o-animation: fadeIn 2s ease;
+  -ms-animation: fadeIn 2s ease;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
 }
 
 .navbar .navbar-nav .nav-link:hover {
@@ -79,7 +105,7 @@ h4 {
   background: #e2b539;
 }
 
-/* Allowed values for the css skill bars */
+/* Allowed *percentages* for the css skill bars */
 .value-00 {
   width: 0;
 }
@@ -223,7 +249,7 @@ h4 {
 .styledHeading {
   text-shadow: 0 0 15px #fff, 0 0 25px #fff, 0 0 47px #e2b539, 0 0 87px #e2b539, 0 0 97px #e2b539;
   color: white;
-  font-size: 80px;
+  font-size: 65px;
   text-align: center;
 }
 
