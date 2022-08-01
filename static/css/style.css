@@ -6,10 +6,6 @@
   box-sizing: border-box;
 }
 
-body {
-  margin: 0;
-}
-
 /* Remove the navbar's default margin-bottom and rounded borders */
 .navbar {
   margin-bottom: 0;
@@ -109,7 +105,7 @@ h4 {
   background: #e2b539;
 }
 
-/* Allowed values for the css skill bars */
+/* Allowed *percentages* for the css skill bars */
 .value-00 {
   width: 0;
 }
@@ -253,7 +249,7 @@ h4 {
 .styledHeading {
   text-shadow: 0 0 15px #fff, 0 0 25px #fff, 0 0 47px #e2b539, 0 0 87px #e2b539, 0 0 97px #e2b539;
   color: white;
-  font-size: 80px;
+  font-size: 65px;
   text-align: center;
 }
 
