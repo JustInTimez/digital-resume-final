@@ -19,7 +19,7 @@ footer {
 
 .jumbotron {
   color: white;
-  background-image: url("/static/images/Me-1920.jpg");
+  background-image: url("../images/Me-1920.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
